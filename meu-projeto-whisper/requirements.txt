@@ -1,0 +1,4 @@
+Flask==2.2.5
+yt-dlp  # Não especificamos a versão mais recente
+openai-whisper
+fpdf==1.7.2
