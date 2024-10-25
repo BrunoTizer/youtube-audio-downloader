@@ -33,7 +33,7 @@ def baixar_audio_youtube(url):
 
     # Verifica se o arquivo final foi criado
     if not os.path.exists(output_path):
-        raise FileNotFoundError(f"O áudio não foi baixado corretamente: {output_path}")
+        raise FileNotFoundError(f"O áudio não baixad corretamente: {output_path}")
 
     return output_path
 

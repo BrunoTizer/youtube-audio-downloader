@@ -82,7 +82,7 @@
 <body>
   <h1>Baixar Áudio do YouTube</h1>
   <form id="youtubeForm">
-    <input type="url" name="url" placeholder="Cole a URL do YouTube" required>
+    <input type="url" name="url" placeholder="Cole a URL do YT" required>
     <button type="submit">Baixar Áudio</button>
   </form>
 
@@ -130,7 +130,7 @@
           alert('Erro: ' + error.error);
         }
       } catch (err) {
-        alert('Erro ao baixar o áudio: ' + err.message);
+        alert('Erro ao baixar áudio: ' + err.message);
       } finally {
         loader.style.display = 'none';
       }
